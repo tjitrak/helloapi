@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  helloapi:
+    image: ${DOCKER_REGISTRY-}helloapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile

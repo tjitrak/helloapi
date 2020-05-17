@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAPI", "HelloAPI.csproj", "{A225A69B-7CF3-486E-8E92-F378788E038D}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DD2477F9-3384-4C65-810F-3F7327FF97F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +15,9 @@ Global
 		{A225A69B-7CF3-486E-8E92-F378788E038D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A225A69B-7CF3-486E-8E92-F378788E038D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A225A69B-7CF3-486E-8E92-F378788E038D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2477F9-3384-4C65-810F-3F7327FF97F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2477F9-3384-4C65-810F-3F7327FF97F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2477F9-3384-4C65-810F-3F7327FF97F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2477F9-3384-4C65-810F-3F7327FF97F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
